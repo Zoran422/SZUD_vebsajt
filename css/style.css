@@ -418,3 +418,12 @@ body {
 .nav-links a.active {
   color: var(--accent);
 }
+/* Poboljšanje responsivnosti za manje ekrane */
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .nav-links {
+    display: none;
+  }
+}
