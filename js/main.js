@@ -75,4 +75,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
+
+
+// --- 6. Promena boje navbara pri skrolovanju ---
+window.addEventListener('scroll', () => {
+  const navbar = document.querySelector('.navbar');
+  if (window.scrollY > 50) {
+    navbar.style.background = 'rgba(10,10,10,0.98)';
+  } else {
+    navbar.style.background = 'rgba(10,10,10,0.85)';
+  }
+});
+
 console.log('SZUD Vebsajt učitan uspešno!');
