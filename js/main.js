@@ -57,9 +57,11 @@ revealEls.forEach(el => {
 });
 
 // --- 4. Tekuća godina u footer-u ---
+// Automatski prikaz tekuce godine u footer-u
 const footerYear = document.querySelector('.footer span');
 if (footerYear) {
-  footerYear.textContent = `© ${new Date().getFullYear()} SZUD Projekat`;
+  const godina = new Date().getFullYear();
+  footerYear.textContent = `© ${godina} SZUD Projekat`;
 }
 
 // --- 5. Smooth scroll za navigacione linkove ---
