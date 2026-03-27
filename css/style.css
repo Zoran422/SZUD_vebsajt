@@ -414,3 +414,16 @@ body {
   .projects-grid { grid-template-columns: 1fr; }
   .footer { flex-direction: column; gap: 0.5rem; }
 }
+/* Aktivan link stil */
+.nav-links a.active {
+  color: var(--accent);
+}
+/* Poboljšanje responsivnosti za manje ekrane */
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .nav-links {
+    display: none;
+  }
+}
