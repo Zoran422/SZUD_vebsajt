@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | SZUD Projekat</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:ital,wght@0,400;1,300&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="noise"></div>
+
+  <nav class="navbar">
+    <span class="nav-logo">SZUD<span class="dot">.</span></span>
+    <ul class="nav-links">
+      <li><a href="#about">O meni</a></li>
+      <li><a href="#projects">Projekti</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-label">Web Developer &amp; Student</div>
+    <h1 class="hero-title">Kreativni<br/><span class="accent">Kod</span><br/>Za Web</h1>
+    <p class="hero-sub">Pravim moderne web sajtove sa čistim kodom i lepim dizajnom.</p>
+    <a href="#projects" class="btn-primary">Pogledaj projekte ↓</a>
+    <div class="hero-scroll">SCROLL</div>
+  </header>
+
+  <section id="about" class="about section">
+    <div class="section-tag">01 — O MENI</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>Zdravo, ja sam<br/><span class="accent">Web Dev Student</span></h2>
+        <p>Studiram softversko inženjerstvo i bavim se izradom web aplikacija. Volim čist kod, dobar dizajn i rešavanje problema.</p>
+        <p>Moje veštine uključuju <strong>HTML</strong>, <strong>CSS</strong> i <strong>JavaScript</strong>, a cilj mi je da naučim moderne frejmvorke.</p>
+      </div>
+      <div class="about-cards">
+        <div class="skill-card">
+          <div class="skill-icon">⟨/⟩</div>
+          <div class="skill-name">HTML & CSS</div>
+          <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">JS</div>
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⌥</div>
+          <div class="skill-name">Git & GitHub</div>
+          <div class="skill-bar"><div class="skill-fill" style="--w:60%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects section">
+    <div class="section-tag">02 — PROJEKTI</div>
+    <h2>Moji <span class="accent">Radovi</span></h2>
+    <div class="projects-grid">
+      <div class="project-card featured">
+        <div class="project-num">01</div>
+        <h3>Portfolio Sajt</h3>
+        <p>Lični portfolio sajt napravljen sa čistim HTML, CSS i JS. Responzivan dizajn sa animacijama.</p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+        <div class="project-status active">Aktivan projekat</div>
+      </div>
+      <div class="project-card">
+        <div class="project-num">02</div>
+        <h3>ToDo Aplikacija</h3>
+        <p>Jednostavna aplikacija za upravljanje zadacima sa lokalnim skladištenjem.</p>
+        <div class="project-tags">
+          <span>JavaScript</span><span>LocalStorage</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-num">03</div>
+        <h3>Vremenska Prognoza</h3>
+        <p>Web app koja prikazuje vremensku prognozu koristeći javni API.</p>
+        <div class="project-tags">
+          <span>API</span><span>Fetch</span><span>JSON</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact section">
+    <div class="section-tag">03 — KONTAKT</div>
+    <div class="contact-inner">
+      <h2>Hajde da <span class="accent">Popričamo</span></h2>
+      <p>Slobodno me kontaktiraj putem email-a ili društvenih mreža.</p>
+      <div class="contact-links">
+        <a href="mailto:student@email.com" class="contact-btn">✉ Email</a>
+        <a href="https://github.com" target="_blank" class="contact-btn">⌥ GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>© 2025 SZUD Projekat</span>
+    <span>Napravljeno sa ♥ i Git-om</span>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
