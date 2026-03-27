@@ -87,4 +87,3 @@ window.addEventListener('scroll', () => {
   }
 });
 
-console.log('SZUD Vebsajt učitan uspešno!');
